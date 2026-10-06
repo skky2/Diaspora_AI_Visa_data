@@ -1,0 +1,51 @@
+{
+  "document": {
+    "type": "residence_permit",
+    "country": "CA",
+    "countryName": "Canada",
+    "categories": [
+      "permanent_resident"
+    ],
+    "description": "Canadian permanent resident card: verified visitor visa exemptions for Mexico and Belize. This is a partial destination list."
+  },
+  "lastUpdated": "2026-10-06",
+  "totalUnlocked": 2,
+  "unlocks": [
+    {
+      "country": "MX",
+      "countryName": "Mexico",
+      "region": "north_america",
+      "conditions": "Present a valid passport or travel document and proof of permanent residence in Canada for tourism, business or other non-remunerated visitor activities. Temporary residence is not covered by this exemption.",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.inm.gob.mx/gobmx/word/index.php/paises-requieren-visa-para-mexico/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-06",
+        "confidence": "verified",
+        "verificationPath": "INM > Paises y regiones que requieren visa para viajar a Mexico > RECUERDA QUE > alternative documents, item a)",
+        "exactQuote": "Documento que acredite residencia permanente en Canadá"
+      },
+      "notes": "180 days is the maximum, not a guaranteed grant. Immigration authorities assess the purpose of travel and may request supporting documents. This entry does not authorize paid work or residence."
+    },
+    {
+      "country": "BZ",
+      "countryName": "Belize",
+      "region": "central_america",
+      "conditions": "Hold a valid Canadian Permanent Residence Card. The entry-visa exemption applies to visits not exceeding 30 days.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://immigration.gov.bz/visa/visa-who-qualify/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-06",
+        "confidence": "verified",
+        "verificationPath": "Belize Immigration > Visa > Do You Need a Visa to Visit Belize > exemption list, Canada bullet",
+        "exactQuote": "valid multiple entry visa or Permanent Residence Card from Canada"
+      },
+      "notes": "This entry records the permanent-residence-card route, separately from the Canadian visa route. A longer stay requires an Immigration Office extension; it is not included in the 30-day exemption."
+    }
+  ]
+}
