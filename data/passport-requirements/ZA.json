@@ -79,13 +79,13 @@
       "visa": {
         "required": true,
         "policy": "evisa",
-        "type": null,
+        "type": "Entry visa (conditional 14-day route available)",
         "freeDays": null,
         "maxStay": null,
         "evisa": true,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Electronic visa (e-Visa) required. Apply online before travel. Processing typically takes 3-7 business days."
+        "notes": "Visa required. Ordinary passport holders with a valid US, EU or UK visa/residence permit, or a valid residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand, may apply through ICP for the conditional 14-day entry visa. This is not an unconditional visa-free or visa-on-arrival entitlement. The passport must have at least six months of validity; entry is within 30 days of visa issuance, with a 14-day stay extendable once for the same period. Other travelers must use the applicable ordinary visa process."
       },
       "documents": {
         "passport": {
@@ -114,7 +114,16 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:24:43.48"
+      "lastUpdated": "2026-10-06",
+      "source": {
+        "url": "https://icp.gov.ae/en/services-details/?serviceid=68e3532c5ae59b0011738404",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-06",
+        "verificationPath": "ICP > Services > Issuance of a 14-day visa for nationals of certain countries residing Abroad > Terms and Conditions",
+        "exactQuote": "The beneficiary’s passport must be valid for at least (6) months",
+        "confidence": "verified",
+        "notes": "Verification covers the conditional visa route and its passport/entry/stay conditions only; other pre-existing document and transit fields were not reverified. ICP announced the expanded eligibility on 2026-06-25: https://icp.gov.ae/en/media-center/icp-expands-eligibility-for-uae-entry-visa-for-nationals-of-certain-countries/"
+      }
     },
     {
       "to": {
